@@ -31,24 +31,24 @@ body {
 .gradient-bg {
   width: 500px;
   height: 900px;
-  bottom: -200px;
-  left: 80px;
-  border-radius: 45%;
   background: linear-gradient(#ff7d69 0%, #FF6650 40%, #E055C2 60%, #7D4DF5 80%, #7D4DF5 100%);
-  transform: rotate(30deg);
   position: absolute;
+  transform: rotate(30deg);
   filter: blur(40px);
+  left: 80px;
+  bottom: -200px;
+  border-radius: 45%;
 }
 
 .gloss-effect {
   width: 320px;
   height: 800px;
   bottom: -125px;
-  left: 140px;
+  left: 130px;
   border-radius: 130px;
   box-shadow: inset -20px 0px 50px 0px rgba(255, 255, 255, 0.25);
   position: absolute;
-  transform: rotate(30deg);
+  transform: rotate(28deg);
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 1) 100%);
 }
 
@@ -60,18 +60,23 @@ body {
   left: 0px;
   border-radius: 120px;
   box-shadow:
-    inset 2px -2px 5px 0px rgb(180, 213, 255),
-    inset 5px -2px 5px 0px rgb(123, 179, 253), 
-    inset 20px -5px 25px 20px rgb(76, 99, 250)
-    /* inset 2px -2px 5px 0px rgb(180, 213, 255),
-    inset 10px -5px 10px 0px rgb(123, 179, 253),
-    inset 15px -5px 10px 0px green,
-    inset 30px -5px 10px 0px red */
-    
-    
-    ;
+    inset 2px -2px 5px 0px rgba(180, 213, 255, 0.75),
+    inset 4px -5px 0px 0px rgb(119, 173, 245),
+    inset 5px -5px 20px 20px rgb(84, 152, 240);
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1) 100%);
   position: absolute;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.play {
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .curve-1 {
@@ -90,13 +95,6 @@ body {
   border-radius: 50%;
 }
 
-.play {
-  padding-top: 30px;
-  padding-left: 30px;
-  display: flex;
-  align-items: center;
-}
-
 .curve-3 {
   width: 4px;
   height: 10px;
@@ -113,21 +111,15 @@ body {
   margin-left: 4px;
 }
 
-.col {
-  display: flex;
-  flex-direction: column;
-}
-
 .action {
   display: flex;
   flex-direction: column;
   margin-top: auto;
   z-index: 0;
-  padding-left: 30px;
+  padding-left: 35px;
   padding-bottom: 30px;
   padding-right: 30px;
   align-items: start;
-
 }
 
 .action h1 {
@@ -141,4 +133,5 @@ body {
   color: #F5DCF1;
   border-radius: 30px;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Poppins';
 }

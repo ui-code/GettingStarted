@@ -4,7 +4,7 @@
 Learn how to convert a UI Design of a Getting Started Page to HTML5 and CSS3 using Blur Filter and Linear Gradient. Don't forget to like, share and subscribe if you found the video helpful.
 
 Step by step video walkthrough:
-https://theuicode.com/116-2/
+https://youtu.be/bdtQZIkRFho
 
 For other videos from this channel:
 https://youtube.com/UICode/videos
